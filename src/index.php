@@ -8,7 +8,7 @@ require_once('base.php');
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Pizzas Catalog | Web App Test</title>
+    <title>Pizza Catalog | Web App Test</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/styles.css" />
@@ -31,7 +31,7 @@ require_once('base.php');
        <li>Web App Test</li>
     </ul>
     <div id="header" class="jumbotron text-center">
-        <h1>Pizzas Catalog</h1>
+        <h1>Pizza Catalog</h1>
         <div id="gradient-overlay"></div>
     </div>
     <div class="container">
@@ -39,7 +39,7 @@ require_once('base.php');
             <div id="catalog">
                 <div id="intro_wrapper" class="row">
                     <div id="intro">
-                        <p>Welcome to our <strong>pizzas catalog</strong>, where culinary creativity meets your cravings! At our pizza haven, 
+                        <p>Welcome to our <strong>pizza catalog</strong>, where culinary creativity meets your cravings! At our pizza haven, 
                             we offer a delectable selection of handcrafted delights, currently boasting two signature pies: 
                             the timeless classic <strong>'Fun Pizza'</strong> and the flavor-packed <strong>'Super Mushroom Pizza'</strong>.</p>
                         <p>Dive into a world of savory satisfaction as you explore our menu brimming with tantalizing toppings and premium 
