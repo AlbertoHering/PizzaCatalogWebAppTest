@@ -1,0 +1,188 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Robot, sans-serif;
+}
+    body {
+        background: orange url(../images/pizza.png) left 85% no-repeat;
+        background-size: 22vw;
+        padding: 0;
+    }
+        ul#nav {
+            background-color: #555;
+            padding: 4px 10px;
+            display: block;
+            color: white;
+        }
+            ul#nav li {
+                display: inline-block;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+                ul#nav li a {
+                    color: white;
+                    text-decoration: none;
+                    display: inline-block;
+                    width: 100%;
+                    margin: 0;
+                    padding: 0px 5px;
+                    font-size: 9px;
+                    text-transform: uppercase;
+                    border: solid 1px transparent;
+                }
+                    ul#nav li a.active,
+                    ul#nav li a:hover {
+                        border: solid 1px orange;
+                        border-radius: 2px;
+                        color: orange;
+                    }
+                ul#nav li:last-child {
+                    text-align: right;
+                    float: right;
+                    padding: 4px 10px;
+                    font-size: 12px;
+                    font-weight: 600;
+                }
+        #header {
+            position: relative;
+            background: url(../images/slice_sm_0.5.png);
+        }
+            #header h1 {
+                font-style: italic;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 80px;
+                text-shadow: 3px 3px 4px rgba(0, 0, 0, 1);
+                color: white;
+            }
+        #gradient-overlay {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 80px;
+            background: linear-gradient(to bottom, rgba(255, 165, 0, 0) 0%, rgba(255, 165, 0, 3) 102%);
+            bottom: 0;
+          }
+        #body_wrapper {
+            position: relative;
+            background-color: white;
+            border-radius: 20px;
+            padding: 34px 20px 150px;
+        }
+            #intro_wrapper {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                #intro {
+                    color: #555;
+                    text-align: left;
+                    max-width: 94%;
+                    font-style: italic;
+                    font-size: 12px;
+                    padding: 0 0 38px;
+                }
+            div.pizza {
+                color: #555;
+                text-align: left;
+                max-width: 94%;
+                font-size: 12px;
+            }
+                div.pizza h3 {
+                    font-style: initial;
+                    color: initial;
+                }
+                div.pizza .form-check {
+                    margin: 0 0 0 10px;
+                }
+            .btn {
+                padding: 2px 20px;
+                font-size: 13px;
+            }
+            .pizza_name {
+                margin-bottom: 7%;
+                background: orange url(../images/slice.png) 112% no-repeat;
+                padding: 10px 5px;
+                border-radius: 7px;
+                font-size: 22px;
+                font-weight: 600;
+            }
+                #order .pizza_name {
+                    margin-bottom: 2%;
+                }
+                .ing_label {
+                    text-transform: capitalize;
+                    font-weight: 500;
+                }
+                    #order .ing_label {
+                        text-transform: capitalize;
+                        font-weight: 500;
+                        position: relative;
+                        display: block;
+                        padding-left: 1.25rem;
+                        color: #555;
+                        text-align: left;
+                        max-width: 94%;
+                        font-size: 12px;
+                        margin: 0 0 0 10px;
+                    }
+                    .ing_price {
+                        font-weight: 300;
+                        font-style: italic;
+                    }
+                    .total_label {
+                        font-weight: 600;
+                        margin: 20px 10px 20px;
+                        border: solid 1px;
+                        border-radius: 3px;
+                        padding: 2px 8px;
+                        display: inline-block;
+                    }
+                        #order .total_label {
+                            color: #555;
+                            text-align: left;
+                            max-width: 94%;
+                            font-size: 12px;
+                        }
+                    .thank_you {
+                        font-style: italic;
+                        font-family: 'Times New Roman', Times, serif;
+                        font-weight: 600;
+                    }
+                .show {
+                    display: block;
+                }
+                .hide {
+                    display: none;
+                }
+            #delivery {
+                background: white url(../images/delivery.png) 10px 7px no-repeat;
+                background-size: 30px;
+                padding: 10px 0 10px 52px;
+                color: brown !important;
+                width: 254px;
+                border-radius: 7px;
+                position: absolute;
+                right: 50px;
+                bottom: 26px;
+            }
+            #slogan {
+                font-style: italic;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 42px;
+                position: relative;
+                top: 68px;
+                text-align: right;
+                color: chocolate;
+                right: 5%;
+            }
+        #footer {
+            background-color: #555555;
+            color: #cccccc;
+            font-size: 12px;
+            padding: 20px 0;
+            margin: 100px 0 0;
+        }
+.btn-return {
+
+}
