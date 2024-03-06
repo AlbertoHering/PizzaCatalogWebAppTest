@@ -39,7 +39,7 @@ require_once('base.php');
             <div id="catalog">
                 <div id="intro_wrapper" class="row">
                     <div id="intro">
-                        <p>Welcome to our <strong>pizza catalog</strong>, where culinary creativity meets your cravings! At our pizza haven, 
+                        <p>Welcome to our <strong>pizzas catalog</strong>, where culinary creativity meets your cravings! At our pizza haven, 
                             we offer a delectable selection of handcrafted delights, currently boasting two signature pies: 
                             the timeless classic <strong>'Fun Pizza'</strong> and the flavor-packed <strong>'Super Mushroom Pizza'</strong>.</p>
                         <p>Dive into a world of savory satisfaction as you explore our menu brimming with tantalizing toppings and premium 
