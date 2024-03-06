@@ -1,5 +1,5 @@
 <h1>Pizza Catalog</h1>
-<h2>Setting Up a Web-Test-App application with Docker</h2>
+<h2>Setting Up a Web-App-Test application with Docker</h2>
 
 <p>This repository provides a Docker-based development environment for a PHP web application with MySQL database support. It includes configurations for PHP, Apache web server, MySQL database server, and phpMyAdmin.</p>
 
@@ -16,7 +16,7 @@
 
 <ol>
 <li>Clone this repository to your local machine:</li>
-<pre><code>git clone git@github.com:AlbertoHering/PizzaCatalogWebTestApp.git pizza_catalog</code></pre>
+<pre><code>git clone git@github.com:AlbertoHering/PizzaCatalogWebAppTest.git pizza_catalog</code></pre>
 
 <li>Navigate to the project directory:</li>
 <pre><code>cd pizza_catalog</code></pre>
